@@ -124,7 +124,7 @@ div.tag {
    }
     body .container{
 
-        width: 768px;
+        width: 100%;
         height: 1500px;
         margin: auto;
         padding: 0px 0px 0px 0px;
@@ -170,6 +170,8 @@ div.tag {
     }
     body .container{
         width: 100%;
+        float:none;
+        padding-left: 20%;
    
     }  
      
@@ -179,5 +181,8 @@ div.tag {
         float: none;
         
     } 
+    .footer {
+        position: none;
+    }
 
 }

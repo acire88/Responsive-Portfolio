@@ -185,7 +185,9 @@ textarea{
         border: 1px solid #777777;
     }
 
-
+    .footer {
+        position: none;
+    }
 }
 
 @media screen and (max-width: 420px){
@@ -240,6 +242,9 @@ textarea{
     }
     p {
         padding: 0px 15px;
+}
+.footer {
+    position: none;
 }
 
 }
