@@ -166,10 +166,17 @@ div.tag {
 
 @media screen and (max-width: 420px){
     body .container{
-        width: 768px;
+        width: 420px;
    
     }  
     .center {
-        padding-left: 30%;
+        padding-left: 25%;
     }   
+    div.card {
+        width: 70%;
+        height: 250px;
+        float: none;
+        
+    }
+
 }
