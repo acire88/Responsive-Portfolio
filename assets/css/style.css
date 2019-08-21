@@ -205,6 +205,10 @@ textarea{
         position: static;
     }
 
+    .page{
+        width: 100%;
+    }
+
     .navbar{
         width:100%;
         height: 70px;
