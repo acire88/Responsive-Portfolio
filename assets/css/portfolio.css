@@ -119,15 +119,14 @@ div.tag {
 
 
 @media screen and (max-width: 768px){
-    body{
-        width: 100%;
-    }
-    
+   body{
+       width: 768px;
+   }
     body .container{
 
-        width: 100%;
+        width: 768px;
         height: 1500px;
-        margin: 0px;
+        margin: auto;
         padding: 0px 0px 0px 0px;
         text-align: center;
     }
@@ -159,9 +158,18 @@ div.tag {
         width: 70%;
         height: 250px;
         float: none;
+        
     }
 
 
 }
 
-@media screen and (max-width: 640px){}
+@media screen and (max-width: 420px){
+    body .container{
+        width: 768px;
+   
+    }  
+    .center {
+        padding-left: 30%;
+    }   
+}
